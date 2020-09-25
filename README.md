@@ -1,5 +1,5 @@
 # cnodechain1
-A node chain that I made so I can learn some c memory management
+A node chain data structure that I made so I can learn some c memory management
 
 I still don't know anything about licenses I just want credit for my work.
 If you like this linked list watch for more, I will make a revision with a few more functions.
