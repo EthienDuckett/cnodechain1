@@ -1,6 +1,15 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
+bool isnull(int num){
+    // THIS FUNCTION IS TERRIBLE can I just access a memory location instead of having to translate things like 6 times?
+    char hex[4] = {0,0,0,0};
+    sprintf(hex,"%X",num);
+    if (hex[0] == '8' && hex[1] == '0' && hex[2] == '0' && hex[3] == '0'){
+        return true;
+    }
+    return false;
+}
 struct node {
     int data;
     struct node *next;
